@@ -43,7 +43,7 @@ const Planets = () => {
 return (
  <div>
 
-      <h2>Paginated View</h2>
+      <h2>Planets</h2>
        
       <button 
             onClick={() => setPage(page => Math.max(page - 1, 1))} 

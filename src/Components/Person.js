@@ -6,6 +6,8 @@ const Person = ({ person }) => {
       <h3>{ person.name }</h3>
       <p>Gender - { person.gender }</p>
       <p>Birth year - { person.birth_year }</p>
+      <p>Height - { person.height }</p>
+      <p>Mass - { person.mass }</p>
     </div>
   );
 }
